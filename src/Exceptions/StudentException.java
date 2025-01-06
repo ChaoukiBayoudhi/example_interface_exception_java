@@ -1,7 +1,7 @@
 package Exceptions;
 
-public class StudentException extends RuntimeException {
-  public StudentException(String message) {
-    super(message);
-  }
+public class StudentException extends Exception {
+    public StudentException(String message) {
+        super(message);
+    }
 }
